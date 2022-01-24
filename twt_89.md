@@ -1,6 +1,6 @@
-#TWT Challenge 89
+# TWT Challenge 89
 
-##first try - bruteforce
+## first try - bruteforce
 ```py
 for I in[I:=input]*int(I()):
  w,h=map(int,I().split())
@@ -24,7 +24,7 @@ Code is just
 
 _*`~B*~D` is really `(-1-B)*(-1-D)` which equals `(B+1)*(D+1)`_
 
-##Second try - histogram (count of 1s to the end)
+## Second try - histogram (count of 1s to the end)
 It just later occurred to me, that what I'm calculating is really just a histogram...
 ```py
 for I in[I:=input]*int(I()):
